@@ -1,44 +1,41 @@
-Algoritmo "EXERCÍCIO 5"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "EXERCÍCIO 5 -"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/04/2023
+// Descrição   : Faça um programa que leia um código de operação (+,-,* ou/),
+// e também dois valores inteiros A e B. O programa deve calcular o resultado
+// da operação escolhida foi * e A= 1 e B=3, o programa deve fornecer como
+// resultado o valor de 1*3, que é 3.
+// Autor(a)    : Paloma Costa
+// Data atual  : 04/04/2023
 Var
 valorA, valorB: inteiro
 CodigoOperacao: caractere
-soma, multiplicacao, subtracao, divisao: real
 
 
 Inicio
-Escreva(" Digite o código de operação: ")
+Escreva("Digite o código de operação: ")
 Leia(CodigoOperacao)
-Escreva(" Digite o valor A: ")
+Escreva("Digite o valor A: ")
 leia(valorA)
 Escreva("Digite o valor B: ")
 leia(valorB)
 LIMPATELA
 
-soma <- (valorA + valorB)
-multiplicacao <- (valorA * valorB)
-subtracao <- (valorA - valorB)
-divisao <- (valorA/valorB)
 
-se ( CodigoOperacao = multiplicacao) entao
-   escreval(" ValorA * ValorB: ", multiplicacao)
+se (CodigoOperacao = "*") entao
+   escreval("ValorA * ValorB: ", valorA * valorB)
 fimse
 
-se (CodigoOperacao = soma) entao
-     escreval(" ValorA + ValorB: ", soma)
+se (CodigoOperacao = "+") entao
+   escreval("ValorA + ValorB: ", valorA + valorB)
 fimse
 
-se (CodigoOperacao = subtracao) entao
-      escreval(" ValorA - ValorB: ", subtracao)
+se (CodigoOperacao = "-") entao
+   escreval("ValorA - ValorB: ", valorA - valorB)
 fimse
 
-  se (CodigoOperacao = divisao) entao
-     escreval(" ValorA/ValorB: ", divisao)
+se (CodigoOperacao = "/") entao
+   escreval("ValorA / ValorB: ", valorA / valorB)
 fimse
 
-
-Fimalgoritmo
+fimalgoritmo
