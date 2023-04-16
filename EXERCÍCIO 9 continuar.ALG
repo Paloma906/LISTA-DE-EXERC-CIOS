@@ -1,15 +1,15 @@
-Algoritmo "EXERCÕCIO 9"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "EXERC√çCIO 10 - CONTINUAR"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Escreva um algoritmo que leia o n˙mero de litros vendidos e o
-//tipo de combustÌvel (codificado da seguinte forma: A-·lcool, G-gasolina),
-//calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preÁo do
-//litro de gasolina È R$ 6,59 e o preÁo do litro do ·lcool È R$ 3,79.
+// Descri√ß√£o   : Escreva um algoritmo que leia o n√∫mero de litros vendidos e o
+//tipo de combust√≠vel (codificado da seguinte forma: A-√°lcool, G-gasolina),
+//calcule e imprima o valor a ser pago pelo cliente sabendo-se que o pre√ßo do
+//litro de gasolina √© R$ 6,59 e o pre√ßo do litro do √°lcool √© R$ 3,79.
 //
-//¡LCOOL: . AtÈ 25 litros, desconto de 2% por litro
+//√ÅLCOOL: . At√© 25 litros, desconto de 2% por litro
 //        . Acima de 25 litros, desconto de 4% por litro
 //
-//Gasolina:. AtÈ 25 litros, desconto de 3% por litro
+//Gasolina:. At√© 25 litros, desconto de 3% por litro
 //         . Acima de 25 litros, desconto de 5% por litro.
 // Autor(a)    : Paloma Costa
 // Data atual  : 05/04/2023
@@ -19,7 +19,7 @@ combustivel: caractere
 
 
 Inicio
-Escreva("Digite o tipo de combustÌvel que deseja: ")
+Escreva("Digite o tipo de combust√≠vel que deseja: ")
 Leia(combustivel)
 Escreva("Digite a quantidade de litros que deseja: ")
 Leia(quantidade)
